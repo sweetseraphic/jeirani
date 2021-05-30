@@ -61,6 +61,6 @@ if (user == "ქვა" && rendom == "ქვა") {
 } else if (user == "ქაღალდი" && rendom == "ქაღალდი") {
     alert("ფრე")
 } else {
-    alert("მოიგეთ")
+    alert("გთხოვთ სწორად შეიყვანოთ სიტყვა")
 }
 console.log(rendom)
