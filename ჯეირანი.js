@@ -1,6 +1,6 @@
 //ჯეირანი
-var rendom = Math.floor(Math.random() * 3);
-var user = prompt(`შეიყვანეთ სიტყვა: "ქვა" "მაკრატელი" "ქაღალდი"  `)
+let rendom = Math.floor(Math.random() * 3);
+let user = prompt(`შეიყვანეთ სიტყვა: "ქვა" "მაკრატელი" "ქაღალდი"  `)
 switch (rendom) {
     case 0:
         rendom = "ქვა"
