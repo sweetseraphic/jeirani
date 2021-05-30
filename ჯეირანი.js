@@ -42,23 +42,23 @@ switch (rendom) {
         rendom = "ქაღალდი"
         break;
 }
-if (user == "ქვა" && rendom == "ქვა") {
+if (user === "ქვა" && rendom === "ქვა") {
     alert("ფრე")
-} else if (user == "ქვა" && rendom == "მაკრატელი") {
+} else if (user === "ქვა" && rendom === "მაკრატელი") {
     alert("მოიგეთ")
-} else if (user == "ქვა" && rendom == "ქაღალდი") {
+} else if (user === "ქვა" && rendom === "ქაღალდი") {
     alert("წააგეთ")
-} else if (user == "მაკრატელი" && rendom == "ქვა") {
+} else if (user === "მაკრატელი" && rendom === "ქვა") {
     alert("წააგეთ")
-} else if (user == "მაკრატელი" && rendom == "მაკრატელი") {
+} else if (user === "მაკრატელი" && rendom === "მაკრატელი") {
     alert("ფრე")
-} else if (user == "მაკრატელი" && rendom == "ქაღალდი") {
+} else if (user === "მაკრატელი" && rendom === "ქაღალდი") {
     alert("მოიგეთ")
-} else if (user == "ქაღალდი" && rendom == "ქვა") {
+} else if (user === "ქაღალდი" && rendom === "ქვა") {
     alert("მოიგეთ")
-} else if (user == "ქაღალდი" && rendom == "მაკრატელი") {
+} else if (user === "ქაღალდი" && rendom === "მაკრატელი") {
     alert("წააგეთ")
-} else if (user == "ქაღალდი" && rendom == "ქაღალდი") {
+} else if (user === "ქაღალდი" && rendom === "ქაღალდი") {
     alert("ფრე")
 } else {
     alert("გთხოვთ სწორად შეიყვანოთ სიტყვა")
